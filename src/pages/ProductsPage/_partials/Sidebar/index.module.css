@@ -3,20 +3,20 @@
   border-radius: 6px;
   background: white;
   width: 100%;
-  /* display: flex;
-  gap: 1rem; */
   flex-wrap: wrap;
 }
 
 .tabLists {
   display: flex;
-  padding: 8px;
+  padding: 4px;
   align-items: center;
   color: #111;
   font-weight: 500;
   margin: 0;
   justify-content: space-between;
   cursor: pointer;
+  font-size: 12px;
+  gap: 6px;
 }
 
 /* .tabLists li:hover {
@@ -50,5 +50,6 @@
     text-align: center;
     align-items: unset;
     font-size: 18px;
+    padding: 8px;
   }
 }

@@ -1,7 +1,7 @@
 import styles from "./index.module.css";
 
 function Sidebar({ onCategorySelect, selectedCategory = () => {} }) {
-  const categories = ["All products", "Food", "Clothing", "Perfume", "Snacks"];
+  const categories = ["All products", "Shoe", "Clothing", "Perfume", "Watch"];
 
   return (
     <aside id={styles.asideBar}>
