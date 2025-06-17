@@ -26,7 +26,7 @@ function Header() {
   return (
     <header id={styles.headerContainer}>
       <div id={styles.headerTitle}>
-        <h1><Link to='/'>Online Store</Link></h1>
+        <h1 className={styles.storeName}><Link to='/'>Lustré</Link></h1>
       </div>
 
       <ul className={`${styles.routeLinks} ${menuOpen ? styles.show : ""}`}>
