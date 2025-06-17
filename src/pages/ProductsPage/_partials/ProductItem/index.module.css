@@ -1,0 +1,139 @@
+.productItems {
+  width: 100%;
+  /* margin: 0 auto; */
+  background: #242934;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  padding: 12px;
+  overflow: hidden;
+  box-sizing: border-box;
+  color: white;
+}
+
+
+.productItem {
+  height: 100%;
+  max-height: 210px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productImage {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-position: center;
+  object-fit: contain;
+  margin-bottom: 6px;
+}
+
+.productName {
+  font-size: 18px;
+}
+
+.title {
+  margin: 0;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #38bdf8;
+}
+
+.productDetail {
+ margin-top: 10px;
+}
+
+.productItemPrice {
+  font-size: 14px;
+  background: #3b4251;
+  width: fit-content;
+  padding: 6px 15px;
+  margin: auto;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  color: #facc15;
+  font-weight: bold;
+}
+
+.productItemDescription {
+  margin: 0;
+  font-size: 12px;
+  color: #e2e8f0;
+  line-height: 15px;
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 768px) {
+  .productItems {
+    width: 100%;
+    max-width: 220px;
+    margin: 0 auto;
+    background: #242934;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+    padding: 16px;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: white;
+  }
+
+  .productItem {
+    height: 100%;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .productImage {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .productName {
+    font-size: 18px;
+  }
+
+  .title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #38bdf8;
+  }
+
+  .productItemPrice {
+    font-size: 16px;
+    background: #3b4251;
+    width: fit-content;
+    padding: 6px 15px;
+    margin: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #facc15;
+    font-weight: bold;
+  }
+
+  .productItemDescription {
+    margin: 0;
+    color: #e2e8f0;
+    line-height: 15px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+}

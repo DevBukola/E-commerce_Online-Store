@@ -1,0 +1,35 @@
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  margin-bottom: 12px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  outline: none;
+}
+
+input:hover {
+  border: 1px solid red;
+}
+
+label {
+  color: #111;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  label {
+    color: #111;
+    font-weight: bold;
+    font-size: 16px;
+  }
+}

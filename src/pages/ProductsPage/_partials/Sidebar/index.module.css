@@ -1,0 +1,54 @@
+#asideBar {
+  border: 1px solid #e6e7e8;
+  border-radius: 6px;
+  background: white;
+  width: 100%;
+  /* display: flex;
+  gap: 1rem; */
+  flex-wrap: wrap;
+}
+
+.tabLists {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  color: #111;
+  font-weight: 500;
+  margin: 0;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+/* .tabLists li:hover {
+  background: #5c5fca;
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+} */
+
+.activeTab {
+  background: #111;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  #asideBar {
+    flex-direction: column;
+    width: 250px;
+    height: 80vh;
+    padding: 10px;
+  }
+
+  .tabLists {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0 20px;
+    text-align: center;
+    align-items: unset;
+    font-size: 18px;
+  }
+}

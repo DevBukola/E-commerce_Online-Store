@@ -1,0 +1,146 @@
+#individualProductDetail {
+  /* padding: 40px 300px; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.itemWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.imageContainer {
+  background: hsl(0, 0%, 96%);
+  display: flex;
+  /* place-items: center; */
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  /* overflow: hidden; */
+  width: 100%;
+  height: 40vh;
+}
+
+.img {
+  width: 100%;
+  height: 90%;
+  padding: 10px;
+  object-fit: contain;
+}
+.itemProperties {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  padding: 20px;
+}
+
+.itemName {
+  /* color: #0e1422; */
+  color: #5c5fca;
+  margin: 0;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.itemReview {
+  background: #f6f6f6;
+  width: 170px;
+  height: 28px;
+  border-radius: 100px;
+  border: 1px solid #f6f6f6;
+  padding: 2px 16px;
+  cursor: pointer;
+  color: #5c5fca;
+  font-size: 12px;
+}
+.itemPrice {
+  font-size: 18px;
+  font-weight: 600;
+  background: #3b4251;
+  width: fit-content;
+  padding: 6px 15px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  color: #facc15;
+  /* color: #38bdf8; */
+  margin: 0;
+}
+
+.description {
+  margin: 0;
+  color: #111;
+  font-size: 16px;
+  font-weight: 500;
+}
+.itemAddToCart {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.cartButton {
+  width: 284px;
+  height: 44px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  background: #0e1422;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+}
+.heart {
+  width: 43px;
+  height: 43px;
+  border-radius: 4px;
+  border: 1px solid #e6e7e8;
+  padding: 0 2px;
+  color: #5c5fca;
+}
+.shipping {
+  font-weight: 500;
+  font-size: 12px;
+  color: #5c5fca;
+}
+
+@media screen and (min-width: 768px) {
+  #individualProductDetail {
+    padding: 40px 300px;
+  }
+
+  .imageContainer {
+    height: auto;
+  }
+
+  .img {
+    height: 49vh;
+    padding: 20px;
+  }
+
+  .itemWrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 104px;
+  }
+
+  .itemProperties {
+    align-items: unset;
+    gap: 25px;
+    padding: unset;
+  }
+
+  .itemName {
+    font-size: 20px;
+  }
+  .shipping {
+    font-size: 14px;
+  }
+
+  .cartButton {
+    font-size: 14px;
+  }
+}

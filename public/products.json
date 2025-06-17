@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "title": "Velvet Bloom",
+    "price": 149.99,
+    "description": "A delicate fusion of blooming peonies and warm amber—soft, feminine, unforgettable.",
+    "category": "perfume",
+    "image": "/product-images/perfume1.jpg",
+    "features": [
+      "Sophisticated Floral Notes",
+      "Perfect for Any Occasion",
+      "Long-lasting Elegance"
+    ],
+    "review": {
+      "review1": "3.9",
+      "review2": "4.6 Reviews"
+    },
+    "reviewDetail": [
+      {
+        "shortName": "NB",
+        "reviewerName": "Nicole Brooks",
+        "time": "2 WEEKS AGO",
+        "reviewText": "A nice, subtle fragrance for daily wear.",
+        "rating": "4.6"
+      },
+      {
+        "shortName": "TW",
+        "reviewerName": "Tyler White",
+        "time": "3 WEEKS AGO",
+        "reviewText": "A bit too floral for my taste.",
+        "rating": "3.9"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Luna Veil",
+    "price": 129.99,
+    "description": "Mystical jasmine and cool musk wrapped in moonlight—crafted for quiet power and grace.",
+    "category": "perfume",
+    "image": "/product-images/perfume2.jpg",
+    "features": [
+      "Sophisticated Floral Notes",
+      "Perfect for Any Occasion",
+      "Long-lasting Elegance"
+    ],
+    "review": {
+      "review1": "3.9",
+      "review2": "4.6 Reviews"
+    },
+    "reviewDetail": [
+      {
+        "shortName": "NB",
+        "reviewerName": "Nicole Brooks",
+        "time": "2 WEEKS AGO",
+        "reviewText": "A nice, subtle fragrance for daily wear.",
+        "rating": "4.6"
+      },
+      {
+        "shortName": "TW",
+        "reviewerName": "Tyler White",
+        "time": "3 WEEKS AGO",
+        "reviewText": "A bit too floral for my taste.",
+        "rating": "3.9"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Solstice Whisper",
+    "price": 199.99,
+    "description": "Zesty citrus and creamy vanilla unite in a scent that feels like summer's gentle breeze.",
+    "category": "perfume",
+    "image": "/product-images/perfume3.jpg",
+    "features": [
+      "Sophisticated Floral Notes",
+      "Perfect for Any Occasion",
+      "Long-lasting Elegance"
+    ],
+    "review": {
+      "review1": "3.9",
+      "review2": "4.6 Reviews"
+    },
+    "reviewDetail": [
+      {
+        "shortName": "NB",
+        "reviewerName": "Nicole Brooks",
+        "time": "2 WEEKS AGO",
+        "reviewText": "A nice, subtle fragrance for daily wear.",
+        "rating": "4.6"
+      },
+      {
+        "shortName": "TW",
+        "reviewerName": "Tyler White",
+        "time": "3 WEEKS AGO",
+        "reviewText": "A bit too floral for my taste.",
+        "rating": "3.9"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Noir Fleur",
+    "price": 139.99,
+    "description": "Dark roses meet smoky sandalwood, a bold, sensual statement with floral elegance.",
+    "category": "perfume",
+    "image": "/product-images/perfume4.jpg",
+    "features": [
+      "Sophisticated Floral Notes",
+      "Perfect for Any Occasion",
+      "Long-lasting Elegance"
+    ],
+    "review": {
+      "review1": "3.9",
+      "review2": "4.6 Reviews"
+    },
+    "reviewDetail": [
+      {
+        "shortName": "NB",
+        "reviewerName": "Nicole Brooks",
+        "time": "2 WEEKS AGO",
+        "reviewText": "A nice, subtle fragrance for daily wear.",
+        "rating": "4.6"
+      },
+      {
+        "shortName": "TW",
+        "reviewerName": "Tyler White",
+        "time": "3 WEEKS AGO",
+        "reviewText": "A bit too floral for my taste.",
+        "rating": "3.9"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Celeste Dew",
+    "price": 15.99,
+    "description": "Like morning dew on petals—light, airy, and kissed with a touch of green tea.",
+    "category": "perfume",
+    "image": "/product-images/perfume5.jpg",
+    "features": [
+      "Sophisticated Floral Notes",
+      "Perfect for Any Occasion",
+      "Long-lasting Elegance"
+    ],
+    "review": {
+      "review1": "3.9",
+      "review2": "4.6 Reviews"
+    },
+    "reviewDetail": [
+      {
+        "shortName": "NB",
+        "reviewerName": "Nicole Brooks",
+        "time": "2 WEEKS AGO",
+        "reviewText": "A nice, subtle fragrance for daily wear.",
+        "rating": "4.6"
+      },
+      {
+        "shortName": "TW",
+        "reviewerName": "Tyler White",
+        "time": "3 WEEKS AGO",
+        "reviewText": "A bit too floral for my taste.",
+        "rating": "3.9"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Amber Mirage",
+    "price": 10.99,
+    "description": "Warm amber, sweet fig, and a hint of spice—an exotic escape in every spritz.",
+    "category": "perfume",
+    "image": "/product-images/perfume6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Rose Éclipse",
+    "price": 8.5,
+    "description": "A  modern twist on rose, infused with plum and patchouli romantic with a mysterious edge.",
+    "category": "perfume",
+    "image": "/product-images/perfume7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Azure Muse",
+    "price": 6.99,
+    "description": "Cool ocean air, blue iris, and soft cedar. An inspiring scent with a coastal soul.",
+    "category": "perfume",
+    "image": "/product-images/perfume8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Golden Aura",
+    "price": 159.99,
+    "description": "Radiant neroli and honeyed mandarin. Glows on the skin like a golden sunset.",
+    "category": "perfume",
+    "image": "/product-images/perfume9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Silken Ember",
+    "price": 9.99,
+    "description": "Cashmere woods and creamy coconut warmed by a touch of fire — smooth, sultry, and lasting.",
+    "category": "perfume",
+    "image": "/product-images/perfume10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Echo Vibe",
+    "price": 9.99,
+    "description": "Minimalist, crisp, and stylish. Carries the energy of the now with a timeless edge.",
+    "category": "clothing",
+    "image": "/product-images/clothe1.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Solar Crest",
+    "price": 9.99,
+    "description": "Clean cuts, radiant color. A polo that brings a burst of brightness to every step you take.",
+    "category": "clothing",
+    "image": "/product-images/clothe2.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Urban Ember",
+    "price": 9.99,
+    "description": "A cozy, charcoal-toned classic with a bold street style spirit. Designed for warmth and quiet confidence.",
+    "category": "clothing",
+    "image": "/product-images/clothe3.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Cloudflare",
+    "price": 9.99,
+    "description": "Soft as a breeze, light as a cloud. This mint-green sweatshirt is the definition of relaxed elegance.",
+    "category": "clothing",
+    "image": "/product-images/clothe4.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Sable Grace",
+    "price": 9.99,
+    "description": "Chic meets powerful in this tailored set. The sleek trouser and jacket exude feminine strength and modern class.",
+    "category": "clothing",
+    "image": "/product-images/clothe5.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Muse Thread",
+    "price": 9.99,
+    "description": "A staple redefined—soft cotton, perfect fit, and a versatile charm that works for any vibe.",
+    "category": "clothing",
+    "image": "/product-images/clothe6.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Midnight Drift",
+    "price": 9.99,
+    "description": "Flowy, elegant, and timeless. This gown moves like a whisper and speaks like poetry.",
+    "category": "clothe7",
+    "image": "/product-images/clothe7.jpg"
+  }
+]

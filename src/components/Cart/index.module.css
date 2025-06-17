@@ -1,0 +1,21 @@
+h2 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.cartTotal {
+  background: #3b4251;
+  width: fit-content;
+  padding: 6px 15px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  color: #facc15;
+}
+
+.modalActions {
+    float: right;
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (min-width: 768px) {
+}

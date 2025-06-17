@@ -1,0 +1,16 @@
+.total {
+  margin-bottom: 20px;
+  color: #facc15;
+  font-size: 20px;
+  font-weight: 600;
+  background: #3b4251;
+  padding: 6px 15px;
+  width: fit-content;
+  border-radius: 4px;
+}
+
+/* .orderMsg {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+} */

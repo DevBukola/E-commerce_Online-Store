@@ -1,0 +1,167 @@
+#headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background: white;
+  color: black;
+  position: relative;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+#headerTitle {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#headerTitle img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 2px solid yellow;
+  padding: 5px;
+}
+
+.routeLinks {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 70%;
+  background: white;
+  padding: 30px 20px;
+  border-top: 1px solid #ccc;
+  gap: 20px;
+  background-color: #111;
+}
+
+.routeLinks.show {
+  display: flex;
+}
+
+.routeLinks li {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.routeLinks li a {
+  color: white;
+}
+
+.cart {
+  color: #000;
+  font-size: 16px;
+}
+
+.cartWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: black;
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  #headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: white;
+    color: black;
+    position: relative;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+
+  #headerTitle {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  #headerTitle img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    padding: 5px;
+  }
+
+  .routeLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    top: 0;
+    width: unset;
+    position: unset;
+    border-top: none;
+    background-color: inherit;
+    padding: unset;
+  }
+
+  .routeLinks li {
+    list-style-type: none;
+    font-size: 18px;
+    margin-left: unset;
+  }
+
+  .routeLinks li a {
+    color: black;
+  }
+
+  .cart {
+    color: #000;
+    font-size: 16px;
+  }
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+  }
+
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background: black;
+    border-radius: 2px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+}

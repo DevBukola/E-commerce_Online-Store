@@ -1,0 +1,16 @@
+.textBtn {
+  background: inherit;
+  color: #000;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  background: #111;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 8px;
+  text-align: center;
+}
