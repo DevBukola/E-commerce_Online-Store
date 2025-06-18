@@ -12,7 +12,7 @@ const Footer = () => {
             <div className={styles.footerLogoWrapper}>
               <div className={styles.logo}>
                 {/* <img src="null" alt="" /> */}
-                <h3>Online Store</h3>
+                <h3>Lustré</h3>
               </div>
               <div className={styles.text}>
                 This is an online store where you can shop for clothing,

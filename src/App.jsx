@@ -10,23 +10,36 @@ import { ProgressContextProvider } from "./contexts/ProgressContext";
 import Cart from "./components/Cart";
 import Checkout from "./components/Checkout";
 import Footer from "./components/Footer";
+import { takeScreenshot } from "./utilities/screenshot";
+// import SpeechRecognition, {
+//   useSpeechRecognition,
+// } from "react-speech-recognition";
 
 function App() {
+  const capturePageView = () => {
+    takeScreenshot("divToScreenshot", "MyScreenshot", "image/png");
+  };
+
   return (
     <ProgressContextProvider>
       <CartContextProvider>
-        <Router>
-          <Header />
-          <Cart />
-          <Checkout />
-          <Routes>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/products" element={<ProductPage />} />
-            <Route path="/contact" element={<ContactUs />} />
-            <Route path="/products/:pId" element={<ProductDetail />} />
-          </Routes>
-          <Footer />
-        </Router>
+        <div id="divToScreenshot">
+          <Router>
+            <Header />
+            <button className="capture-button" onClick={capturePageView}>
+              Take Screenshot
+            </button>
+            <Cart />
+            <Checkout />
+            <Routes>
+              <Route path="/" element={<LandingPage />} />
+              <Route path="/products" element={<ProductPage />} />
+              <Route path="/contact" element={<ContactUs />} />
+              <Route path="/products/:pId" element={<ProductDetail />} />
+            </Routes>
+            <Footer />
+          </Router>
+        </div>
       </CartContextProvider>
     </ProgressContextProvider>
   );

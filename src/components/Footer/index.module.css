@@ -14,7 +14,7 @@
 .footerLogoWrapper {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 .logo {
   display: flex;
@@ -29,6 +29,7 @@
 .text {
   font-size: 14px;
   color: #878a92;
+  margin: 0;
 }
 .socials {
   display: flex;
@@ -38,7 +39,7 @@
 .links {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
   margin: 0;
 }
 .links h3 {
@@ -46,11 +47,17 @@
   color: #111;
   font-size: 16px;
   font-weight: 500;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 0;
 }
 .links a {
   color: inherit;
   font-size: 14px;
+  padding-bottom: 5px;
 }
+
 
 @media (min-width: 760px) {
   .footerBg {

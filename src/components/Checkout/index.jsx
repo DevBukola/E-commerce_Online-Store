@@ -47,7 +47,7 @@ function Checkout() {
             Thank you for your purchase! We'll reach out to you at{" "}
             <strong>{customerEmail}</strong>.
           </span>
-          <Button onClick={handleCloseCheckout}>Close</Button>
+          <Button className={styles.closeBtn} onClick={handleCloseCheckout}>Close</Button>
         </div>
       ) : (
         <form onSubmit={handleSubmit}>
@@ -103,7 +103,7 @@ function Checkout() {
             <Button onlyText type="button" onClick={handleCloseCheckout}>
               Close
             </Button>
-            <Button type="submit">Submit</Button>
+            <Button type="submit" className={styles.submit}>Submit</Button>
           </div>
         </form>
       )}

@@ -257,7 +257,135 @@
     "title": "Midnight Drift",
     "price": 9.99,
     "description": "Flowy, elegant, and timeless. This gown moves like a whisper and speaks like poetry.",
-    "category": "clothe7",
+    "category": "clothing",
     "image": "/product-images/clothe7.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Oxford Crest",
+    "price": 9.99,
+    "description": "Timeless craftsmanship. A classic brown oxford built for the modern gentleman.",
+    "category": "shoes",
+    "image": "/product-images/shoe1.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Urban Monarch",
+    "price": 9.99,
+    "description": "Simply beautiful.",
+    "category": "shoes",
+    "image": "/product-images/shoe2.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Nova Stride",
+    "price": 30.78,
+    "description": "Bold and breathable. Designed for motion with a spark of street style.",
+    "category": "shoes",
+    "image": "/product-images/shoe3.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Sable Rise",
+    "price": 90.79,
+    "description": "All-black and alluring, this heel adds a whisper of drama to your step.",
+    "category": "shoes",
+    "image": "/product-images/shoe4.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Granite Edge",
+    "price": 40.19,
+    "description": "Rugged meets refined. A lace-up shoe made for city streets and sharp looks.",
+    "category": "shoes",
+    "image": "/product-images/shoe5.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Amber Streak",
+    "price": 16,
+    "description": "A warm caramel tone with bold cuts. Stylish, fierce, and perfect for the season.",
+    "category": "shoes",
+    "image": "/product-images/shoe6.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Velour Flame",
+    "price": 20.25,
+    "description": "Sharp stiletto wrapped in wine-toned velvet confidence with every click.",
+    "category": "shoes",
+    "image": "/product-images/shoe7.jpg"
+  },
+  {
+    "id": 26,
+    "title": "Rose Elive",
+    "price": 32.79,
+    "description": "Soft blush leather and a sculpted heel. Graceful, elegant, effortlessly lifted.",
+    "category": "shoes",
+    "image": "/product-images/shoe8.jpg"
+  },
+  {
+    "id": 27,
+    "title": "Midnight Chante",
+    "price": 9.99,
+    "description": "All-black and alluring, this heel adds a whisper of drama to your step.",
+    "category": "shoes",
+    "image": "/product-images/shoe9.jpg"
+  },
+  {
+    "id": 28,
+    "title": "Echo Rush",
+    "price": 6.99,
+    "description": "Minimalist silhouette with maximum energy. Lightweight and always on pace.",
+    "category": "shoes",
+    "image": "/product-images/shoe10.jpg"
+  },
+  {
+    "id": 29,
+    "title": "Drift Pulse",
+    "price": 19.64,
+    "description": "A fusion of comfort and cool. Where everyday wear meets performance edge",
+    "category": "shoes",
+    "image": "/product-images/shoe11.jpg"
+  },
+  {
+    "id": 30,
+    "title": "Luna Crest",
+    "price": 44.24,
+    "description": "A sleek dial that reflects elegance under any light. Perfect for both day and night wear.",
+    "category": "watches",
+    "image": "/product-images/watch1.jpg"
+  },
+  {
+    "id": 31,
+    "title": "Aurum Trace",
+    "price": 56,
+    "description": "Luxury with a minimalist face. A timeless piece for the bold and refined.",
+    "category": "watches",
+    "image": "/product-images/watch2.jpg"
+  },
+  {
+    "id": 32,
+    "title": "Noir Halo",
+    "price": 70.32,
+    "description": "Understated, sharp, and made for quiet confidence.",
+    "category": "watches",
+    "image": "/product-images/watch5.jpg"
+  },
+  {
+    "id": 33,
+    "title": "Velox Steel",
+    "price": 12.1,
+    "description": "Sporty and durable with a modern edge. Designed for the fast-paced and focused.",
+    "category": "watches",
+    "image": "/product-images/watch5.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Rosé Veil",
+    "price": 80.09,
+    "description": "A soft rose gold finish with a graceful curve feminine, stylish, and effortlessly charming",
+    "category": "watches",
+    "image": "/product-images/watch5.jpg"
   }
 ]
