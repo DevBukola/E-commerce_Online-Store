@@ -23,6 +23,10 @@ h3 {
   margin: 0;
 }
 
+.successMessage span {
+  font-size: 12px;
+}
+
 .closeBtn {
   width: 140px;
 }
@@ -44,6 +48,9 @@ h3 {
     font-size: 20px;
   }
   .total {
+    font-size: 16px;
+  }
+  .successMessage span {
     font-size: 16px;
   }
 }
