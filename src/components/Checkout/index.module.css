@@ -1,7 +1,11 @@
+h3 {
+  font-size: 14px;
+}
+
 .total {
   margin-bottom: 20px;
   color: #facc15;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 600;
   background: #3b4251;
   padding: 6px 15px;
@@ -34,8 +38,12 @@
   padding: 8px 20px;
 }
 
-/* .orderMsg {
-  display: flex;
-  align-items: center;
-  gap: 1px;
-} */
+
+@media screen and (min-width: 768px) {
+  h3 {
+    font-size: 20px;
+  }
+  .total {
+    font-size: 16px;
+  }
+}

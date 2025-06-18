@@ -1,6 +1,7 @@
 h2 {
-  font-size: 18px;
-  margin-bottom: 30px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin: 0;
 }
 .cartTotal {
   background: #3b4251;
@@ -18,4 +19,8 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
+  h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
 }

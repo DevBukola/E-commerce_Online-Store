@@ -1,7 +1,7 @@
 .inputGroup {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
 }
 
 p {
@@ -11,8 +11,8 @@ p {
 
 input {
   margin-bottom: 12px;
-  padding: 8px;
-  font-size: 14px;
+  padding: 4px;
+  font-size: 12px;
   border-radius: 4px;
   outline: none;
   border: none;
@@ -27,12 +27,20 @@ input:hover {
 label {
   color: #111;
   font-weight: bold;
+  font-size: 10px;
 }
 
 @media screen and (min-width: 768px) {
+  .inputGroup {
+    gap: 8px;
+  }
   label {
     color: #111;
     font-weight: bold;
     font-size: 16px;
+  }
+  input {
+    padding: 8px;
+    font-size: 14px;
   }
 }
