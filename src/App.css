@@ -1,0 +1,23 @@
+.capture-button {
+  position: fixed;
+  top: 16px;
+  margin-left: 100px;
+  /* right:0; */
+  float: left;
+  padding: 8px 8px;
+  border-radius: 8px;
+  border: none;
+  background: #38bdf8;
+  color: white;
+  cursor: pointer;
+  z-index: 9999;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+  .capture-button {
+    top: 90px;
+    padding: 10px 16px;
+     margin-left: 20px;
+  }
+}

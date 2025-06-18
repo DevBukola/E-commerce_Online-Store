@@ -9,6 +9,31 @@
   border-radius: 4px;
 }
 
+.successMessage {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.successMessage h3 {
+  margin: 0;
+}
+
+.closeBtn {
+  width: 140px;
+}
+
+.actions {
+  display: flex;
+  float: right;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.submit {
+  padding: 8px 20px;
+}
+
 /* .orderMsg {
   display: flex;
   align-items: center;
