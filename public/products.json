@@ -354,7 +354,7 @@
     "price": 44.24,
     "description": "A sleek dial that reflects elegance under any light. Perfect for both day and night wear.",
     "category": "watches",
-    "image": "/product-images/watch1.jpg"
+    "image": "/product-images/watch1.png"
   },
   {
     "id": 31,
@@ -362,7 +362,7 @@
     "price": 56,
     "description": "Luxury with a minimalist face. A timeless piece for the bold and refined.",
     "category": "watches",
-    "image": "/product-images/watch2.jpg"
+    "image": "/product-images/watch2.png"
   },
   {
     "id": 32,
@@ -378,7 +378,7 @@
     "price": 12.1,
     "description": "Sporty and durable with a modern edge. Designed for the fast-paced and focused.",
     "category": "watches",
-    "image": "/product-images/watch5.jpg"
+    "image": "/product-images/watch2.png"
   },
   {
     "id": 34,
