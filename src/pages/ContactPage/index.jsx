@@ -1,8 +1,9 @@
 import React from "react";
+import styles from './index.module.css'
 
 function ContactUs() {
   return (
-    <div>
+    <div className={styles.contactWrapper}>
       <h1>Contact</h1>
     </div>
   );

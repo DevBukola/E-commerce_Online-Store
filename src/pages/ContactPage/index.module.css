@@ -1,0 +1,9 @@
+.contactWrapper {
+    padding-top: 12%;
+}
+
+@media screen and (min-width: 768px) {
+    .contactWrapper {
+        padding-top: 4%;
+    }
+}

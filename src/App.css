@@ -2,7 +2,6 @@
   position: fixed;
   top: 16px;
   margin-left: 100px;
-  /* right:0; */
   float: left;
   padding: 8px 8px;
   border-radius: 8px;
@@ -12,12 +11,13 @@
   cursor: pointer;
   z-index: 9999;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transform: rotateZ(39deg) translateX(32px) translateY(-16px);
 }
 
 @media screen and (min-width: 768px) {
   .capture-button {
-    top: 90px;
+    top: 30px;
     padding: 10px 16px;
-     margin-left: 20px;
+    margin-left: 70px;
   }
 }
