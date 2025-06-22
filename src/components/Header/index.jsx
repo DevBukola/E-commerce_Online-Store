@@ -40,7 +40,7 @@ function Header() {
             Products
           </Link>
         </li>
-        <li><Link to='/'>About</Link></li>
+        {/* <li><Link to='/'>About</Link></li> */}
         <li>
           <Link to="/contact" onClick={() => setMenuOpen(false)}>
             Contact
